@@ -1,6 +1,20 @@
 ## Καραγιάννη Θωμάς sdi1800064@di.uoa.gr - 1115201800064
 ## Μαυραΐδης Κωνσταντίνος sdi0700101@di.uoa.gr - 1115200700101
 
+# Description
+
+This is  program for finding the KNN neighbours of a vector file. The program takes a number of multi-dimentional vectors ( 100 in the dummy files ) and creates an optimized graph. 
+The program then can take some querie points, not listed in the graph, and find their K Nearest Neighbours. It then checks the recall based on the groundtruth file. The Version 1 is using a single thread and the points it can handle, both data points and query points, do not contain filters.
+Version 2 can handle points with filters, and Version 3 builds upon version 2 adding multithreaded functionallity.
+
+
+You can use two methods for creating the graphs in Version 2/3, Filtered Vamana and Stitched Vamana. 
+
+The team used Github Actions to test in each Push/PR
+
+Find datasets in [[https://transactional.blog/sigmod-contest/2024]]
+
+
 # Execute
 
 ## Installation of test Framework
