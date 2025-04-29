@@ -48,12 +48,12 @@ In order to run the create for  Filtered Vamana sample command
 ### Recall
 In order to run the Recall program of Filter Vamana run(sample command)
 #### ex:
-```./recallFilteredVamana -b contest-data-release-1m.bin -q contest-queries-release-1m.bin --graph filteredVamana1mParallel4Threads -g neighbors1m.ivecs -R 60 -a 1.2 -L 120 -k 100 -t 4``
+```./recallFilteredVamana -b contest-data-release-1m.bin -q contest-queries-release-1m.bin --graph filteredVamana1mParallel4Threads -g neighbors1m.ivecs -R 60 -a 1.2 -L 120 -k 100 -t 4```
 
 
 ### create stiched  Vamana
 In order to run the create for  Stiched Vamana sample command
-```./stitchedVamana -b contest-data-release-1m.bin -a 1.2 -R 60 -L 120 -t 4``
+```./stitchedVamana -b contest-data-release-1m.bin -a 1.2 -R 60 -L 120 -t 4```
 
 
 Similarly, to run the Recall program of Stitched Vamana run sample command
